@@ -1,36 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
         <style type="text/css">
-            .main {
+            body {
+                margin: 0;
+                padding: 0;
                 background-color: black;
-                width: 100%;
-                height: auto;
-                bottom: 0px;
-                top: 0px;
-                left: 0px;
-                position: absolute;
-                color: white;
-                font-size: 30pt;
+                text-align: center;
             }
-            .center {
-                font-family: 'Inconsolata';
+            #Content {
+                clear: both;
+                width: 100% auto;
+                margin: 0px auto;
+                text-align: center;
+                padding: 15px;
+                height: 256px;
                 position: absolute;
-                width: 400px;
-                height: 100px;
                 top: 50%;
                 left: 50%;
-                margin-top: -50px;
-                margin-left: -200px;
+            }
+            #inner {
+                position: relative;
+                top: -50%;
+                left: -50%;
+            }
+            #text-center{
                 text-align: center;
+                font-family: 'Inconsolata';
+                font-size: 40pt;
+                color: white;
+                padding-top: 20px
+            }
+            a {
+                padding: 5px 11px
             }
         </style>
     </head>
-
     <body>
-        <div class='main'>
-            <div class="center">contact@pedrogalan.es</div></div>
+        <div id="Content">
+            <div id="inner">
+                <a href="https://es.linkedin.com/in/pjgalan"><img src="linkedin-medium.png"/></a>
+                <a href="https://github.com/pedrogalan"><img src="github-medium.png"/></a>
+                <a href="mailto:contact@pedrogalan.es"><img src="email-medium.png"/></a>
+                <div id="text-center">Pedro Gal&aacute;n</div>
+            </div>
         </div>
     </body>
 </html>
