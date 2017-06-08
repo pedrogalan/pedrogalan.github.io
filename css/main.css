@@ -31,9 +31,19 @@ body {
     color: white;
     padding-top: 20px
 }
-
+#greetings{
+    text-align: right;
+    font-family: 'Inconsolata';
+    font-size: 8pt;
+    color: grey;
+}
+#greetings a {
+    padding: 0;
+    text-decoration: none;
+    color: grey;
+}
 a {
-    padding: 5px 11px
+    padding: 5px 11px;
 }
 
 /*
